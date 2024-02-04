@@ -11,7 +11,9 @@ int factorial(int n)
 }
 
 int main()
-{
-        factorial(10);
+{ 
+        int result = factorial(3);
+        printf("%d\n",result);
+        return 0;
 }
 
